@@ -1,0 +1,12 @@
+[package]
+name = "test-client"
+version = "0.1.0"
+authors = ["Geordon Worley <vadixidav@gmail.com>"]
+
+[dependencies]
+reqwest = "0.4"
+serde = "0.9"
+
+[dependencies.a4-proto]
+git = "https://github.com/pgblrsgw/a4-proto"
+rev = "096aea427ccd88fe682ed80a147856fccdd1db17"
